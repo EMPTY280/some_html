@@ -2,3 +2,27 @@ body
 {
 	background-color: powderblue;
 }
+
+table, td, th
+{
+	border: 1px solid;
+	text-align: center;
+	border-collapse: collapse;
+	padding: 3px;
+}
+
+tr:nth-child(2n)
+{
+	background-color: lightgray;
+}
+
+tr:nth-child(2n+1)
+{
+	background-color: white;
+}
+
+tr:first-child
+{
+	background-color: wheat;
+	border: 2px solid;
+}
